@@ -751,7 +751,7 @@ body::after {
 
 /* ── MBTI badge ── */
 .mbti-badge {
-  display: inline-block;
+  display: none;
   background: var(--gold);
   color: var(--bg);
   font-size: 22px;

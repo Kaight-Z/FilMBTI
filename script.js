@@ -983,7 +983,7 @@ const CHARACTERS = {
       tags:    '打破枷锁的出走者 · 自由比安全更真实',
       desc:    '你一直活在别人给你画好的框里，直到某一天，你发现那个框根本装不下你。赛尔玛在那次旅行之前只是个普通的家庭主妇，但当她第一次开着那辆车往前冲，她才意识到那才是她真正的语言。你的能量在约束里会膨胀，在自由里会盛放，你从来都不是那种能被驯服的人——你只是有时候会忘记这件事。你有强烈的正义感和行动力，当你觉得某件事不对，你不会等别人来处理，你会直接走进去。你最不能接受的是被要求假装某件事没发生过，你宁愿付出代价，也不愿意缩回去。那个一路向前的姿态，不管去向哪里，都比原路返回更像你。',
       img:     'images/female/thelma.jpg',
-      related: ['ENTP_A', 'ESFP_T1', 'ENFP_A'],
+      related: ['ENTP_A', 'ESFP_T', 'ENFP_A'],
     },
 
     // ── INFJ ─────────────────────────────────
@@ -1031,15 +1031,6 @@ const CHARACTERS = {
       desc:    '你一直在寻找那种可以让你真正存在的感觉，那种感觉不是热闹，是被真正看见。特芮斯在那次相遇之前，生活是一列按照时刻表行进的火车，直到卡罗尔走进来，她才意识到她一直活在别人设定的那条线上。你有一种深刻的内在世界，你用相机、文字、音乐或沉默来表达那些语言装不下的东西，那不是沉默，是一种密度更高的语言。你对美和真实有极强的感知力，你能在别人觉得普通的瞬间里捕捉到某种永恒的东西。你害怕的不是失去，而是在某段关系里把自己变成了别人期待的那个形状，然后忘记了你本来是什么形状。当你遇见了那种能看见你真实形状的目光，你会知道那就是你一直在等的东西。',
       img:     'images/female/therese.jpg',
       related: ['INFP_A', 'INFJ_T1', 'ISFP_A'],
-    },
-
-    'INFP_T2': {
-      name:    '如月松子',
-      from:    '《被嫌弃的松子的一生》Memories of Matsuko，2006',
-      tags:    '渴爱的灵魂 · 为了被需要可以燃尽自己',
-      desc:    '你对爱的渴望是真实的，深到让你有时候分不清"被爱"和"存在"之间的界限。松子把她一生的能量都给了那些能让她感受到"我是被需要的"的人——不是因为她软弱，而是因为那种被需要的感觉是她找到过的最真实的东西。你的温柔是无限量的，你愿意为了一个你爱的人改变自己、牺牲自己、原谅不该原谅的事——那份爱是真实的，那份韧性也是真实的，只是那条路走得很沉。你最大的功课不是学会不爱人，而是学会也把那份爱的一部分给自己留着。当你爱一个人，不需要先把自己清空才有空间——你本来就值得被爱，不是因为你的付出，而是因为你这个人。',
-      img:     'images/female/matsuko.jpg',
-      related: ['INFP_A', 'INFP_T1', 'ENFJ_T'],
     },
 
     // ── ENFJ ─────────────────────────────────
@@ -1107,6 +1098,15 @@ const CHARACTERS = {
       desc:    '你把责任和保护刻进了骨子里，那不是冷硬，是一种烈度极高的爱，只是包装得让人很难第一眼看出来。莎拉·康纳在那个世界里没有人告诉她该怎么做，她只有一件事知道：她的儿子必须活下去，而那件事只有她能保证。你不需要别人理解你的选择，你只需要确认那个选择是对的，然后你就会走到底。你的坚韧不是天生的，是一次次被逼到极限之后锻造出来的，而且你早就发现那个极限比你原来以为的要远得多。你不擅长示弱，不是因为你没有脆弱，而是因为脆弱在你的处境里是一种你负担不起的东西。但那个偶尔抱着儿子沉默片刻的女人，才是你整个坚强的来源，而那份来源，足以支撑一切。',
       img:     'images/female/sarah-connor.jpg',
       related: ['ISTJ_T', 'ISFJ_A', 'INTJ_A'],
+    },
+
+    'ISTJ_A2': {
+      name:    '赫敏·格兰杰',
+      from:    '《哈利波特》系列 2001-2011',
+      tags:    '知识就是盔甲 · 规则守护者',
+      desc:    '你相信努力和规则是世界运转的基础，不是因为你缺乏想象力，而是因为你深知准备是最好的勇气。你总是房间里准备最充分的人，也是第一个站出来说"这样不对"的人。你的朋友有时觉得你太死板，但在真正的危机来临时，所有人都庆幸有你在。就像赫敏，你的价值不在于你有多聪明，而在于你愿意用那份聪明去保护你在乎的人。',
+      img:     'images/female/hermione.jpg',
+      related: ['ISTJ_A', 'INTJ_A', 'ESTJ_A'],
     },
 
     'ISTJ_T': {
@@ -1229,7 +1229,7 @@ const CHARACTERS = {
       tags:    '破碎的感受者 · 野猫不属于任何人',
       desc:    '你用漂泊和自由武装自己，因为你早就知道定下来意味着可能失去，而失去那件事你经历够了。荷莉·葛莱特利每天早上站在蒂凡尼的橱窗前，那不是对奢华的渴望，而是对某种宁静与美好的渴望——一种她能感受到但从来无法真正拥有的质感。你对情感的感受力极强，美的东西让你欣喜，粗粝的东西让你受伤，但你学会了用一种轻巧的姿态把这两者都藏在表演里。你说自己不属于任何地方、任何人，那句话有一半是真的，有一半是你用来保护自己的盾牌。但在那个雨中的小巷里，当你最终把那只猫抱回来，你知道那是你开口说"我需要你"的方式，只是用的是行动，不是话语。',
       img:     'images/female/holly-golightly.jpg',
-      related: ['ISFP_A', 'INFP_T2', 'ESFP_T1'],
+      related: ['ISFP_A', 'ESFP_T'],
     },
 
     // ── ESFP ─────────────────────────────────
@@ -1240,25 +1240,16 @@ const CHARACTERS = {
 
       desc:    '你的存在本身就有一种磁力，不是因为你刻意，而是因为你对自己是谁有一种清醒的、安静的了解，那种了解让你有一种别人无法复制的存在感。卡罗尔走进那家商店的那一刻，没有人说话，但整个空气都变了——那不是表演，那是一个人真正活在自己皮肤里的样子。你清楚地知道自己想要什么，哪怕代价是一切，而且你愿意为那个真实付出代价，因为不真实的生活对你来说比孤独更难忍受。你的优雅不是表演，是骨子里的，那份优雅在最脆弱的时刻也没有消失，因为它不是铠甲，是你的一部分。你需要的是一个能和你一起站在那份真实里的人，而那种人，你一眼就能认出来。',
       img:     'images/female/carol.jpg',
-      related: ['ESFP_T1', 'ENTJ_A', 'ISFP_A'],
+      related: ['ESFP_T', 'ENTJ_A', 'ISFP_A'],
     },
 
-    'ESFP_T1': {
-      name:    '诺玛·德斯蒙',
-      from:    '《日落大道》Sunset Boulevard，1950',
-      tags:    '表演背后的眼泪 · 我还伟大，只是电影变小了',
-      desc:    '你把自己完全活进了一个角色里，分不清台上和台下的边界，那不是幻觉，而是因为那个角色里有你最真实的部分，失去它等于失去自己。诺玛·德斯蒙说"我还是大明星，只是电影变小了"，那句话里有一种比任何悲剧都更真实的人类困境——她的光芒是真实的，只是那个需要那份光芒的时代走了。你对自己的光芒有一种执着，那不是虚荣，是因为那份光芒是你触碰世界的方式，失去它你不知道自己还是谁。你需要被看见，那是真实的需求，不是缺陷；但那份需求需要被投向真正在乎你这个人的人，而不是在乎那个角色的人。你的故事还没有写完，而且你值得一个比日落大道更真实的结局。',
-      img:     'images/female/norma-desmond.jpg',
-      related: ['ESFP_A', 'ESFP_T2', 'ENFJ_T'],
-    },
-
-    'ESFP_T2': {
+    'ESFP_T': {
       name:    '米娅',
       from:    '《爱乐之城》La La Land，2016',
       tags:    '取悦所有人的代价 · 梦想还是要有的',
       desc:    '你渴望被认可，为此付出了巨大的努力，然后某一天你意识到那份努力值得被真正看见，而不只是被接受。米娅在那场试镜前一次次被拒绝，但她最后站起来说的那个故事，是她终于相信自己的声音值得被听见的时刻——那一刻比任何掌声都更真实。你在"真实的生活"和"梦想的生活"之间反复权衡，那不是软弱，是一种诚实的、关于代价的算法。你需要被认可，那没有什么不好，因为你真的有值得被认可的东西；你只需要学会分清楚哪些认可来自真正了解你的人，哪些只是你填满不安全感的方式。那个最后在咖啡馆里相遇的眼神里，有一种和解——不是遗憾，是两个人都知道彼此选对了，只是方向不同。',
       img:     'images/female/mia.jpg',
-      related: ['ESFP_A', 'ESFP_T1', 'ENFJ_T'],
+      related: ['ESFP_A', 'ENFJ_T'],
     },
 
     // ── 特别收录 ──────────────────────────────
@@ -1268,7 +1259,7 @@ const CHARACTERS = {
       tags:    '以泪洗面 · 世界辜负了她所有的敏感',
       desc:    '你对世界有超乎常人的感受力，美的东西让你欣喜，粗粝的东西让你受伤，而这个世界总是同时充满着这两者。林黛玉的眼泪不是软弱，是一个感知力太强的人在一个感知力太低的世界里最诚实的回应——她不是脆弱，是真实。你用诗和感受来表达那些语言装不下的东西，那份表达是你和世界之间最深的连结，哪怕很多人看不懂那座桥。你最难受的不是孤独，而是被误解，而且被误解的方式是有人把你真实的细腻当作任性，把你真实的在乎当作多余。你需要的不是一个能消除你敏感的人，而是一个能和你在那份敏感里一起停留的人——那种人，是真正配得上你这份深度的人，而你，值得被这样认识。',
       img:     'images/female/lin-daiyu.jpg',
-      related: ['INFP_T2', 'ISFP_T', 'INFJ_T2'],
+      related: ['ISFP_T', 'INFJ_T2'],
     },
 
   },
@@ -1332,6 +1323,17 @@ const BRANCH_QUESTIONS = {
   // ── 女性分支 ──────────────────────────────────────────────────
   female: {
 
+    // 莎拉·康纳(1) vs 赫敏·格兰杰(2)
+    'ISTJ': {
+      id: 49,
+      hint: '你总是第一个站出来保护你在乎的人——',
+      text: '那股力量更多来自：',
+      options: [
+        { text: 'A  一种刻进骨子里的警觉——世界不安全，我必须做好最坏的准备。', variant: '1' },
+        { text: 'B  一种深入骨髓的信念——我知道什么是对的，知道就要做到。',     variant: '2' },
+      ]
+    },
+
     // 特芮斯(1) vs 如月(2)
     'INFP': {
       id: 43,
@@ -1376,16 +1378,6 @@ const BRANCH_QUESTIONS = {
       ]
     },
 
-    // 诺玛·德斯蒙(1) vs 米娅(2)
-    'ESFP': {
-      id: 48,
-      hint: '台上的光芒和台下的你——',
-      text: '差距有多大？',
-      options: [
-        { text: 'A  台上才是真正的我——没有聚光灯，我不知道自己站在哪里。',   variant: '1' },
-        { text: 'B  台下的我也在努力活——光芒是我想要的，但我还想要真实的生活。', variant: '2' },
-      ]
-    },
   },
 };
 
@@ -1767,14 +1759,12 @@ function startLoading() {
       // Calculate result, then branch or show directly
       setTimeout(() => {
         calculateResult();
-        // Only Turbulent types get a branch question
-        const bq = !state.assertive
-          ? BRANCH_QUESTIONS[state.gender]?.[state.mbti]
-          : null;
+        // Branch question fires for any type that has one defined
+        const bq = BRANCH_QUESTIONS[state.gender]?.[state.mbti] ?? null;
         if (bq) {
           showBranchQuestion(bq);
         } else {
-          state.branchVariant = null;  // Assertive → single character, no variant suffix
+          state.branchVariant = null;
           showResult();
         }
       }, 400);
@@ -1901,10 +1891,12 @@ function showResult() {
   const mbti     = state.mbti;
   const genderDB = CHARACTERS[state.gender] || CHARACTERS.male;
 
-  // Build character key:  MBTI_A  |  MBTI_T  |  MBTI_T1  |  MBTI_T2
+  // Build character key:  MBTI_A  |  MBTI_A2  |  MBTI_T  |  MBTI_T1  |  MBTI_T2
   let charKey;
   if (state.assertive) {
-    charKey = `${mbti}_A`;
+    charKey = (state.branchVariant && state.branchVariant !== '1')
+      ? `${mbti}_A${state.branchVariant}`          // e.g. 'ISTJ_A2'
+      : `${mbti}_A`;
   } else if (state.branchVariant) {
     charKey = `${mbti}_T${state.branchVariant}`;   // e.g. 'INTP_T1'
   } else {
@@ -1933,7 +1925,7 @@ function showResult() {
   $('#result-name').textContent  = character.name;
   $('#result-from').textContent  = character.from;
   $('#result-desc').textContent  = character.desc;
-  $('#poster-label').textContent = character.tags ? `— ${character.tags} —` : `— ${mbti}${atLabel} —`;
+  $('#poster-label').textContent = character.tags ? `— ${character.tags} —` : `— ${character.name} —`;
 
   // A/T 小标签（注入到 mbti-badge 下方）
   let atTag = document.getElementById('at-stat-tag');
@@ -1966,6 +1958,21 @@ function showResult() {
 
   // Animate trait bars in after stage visible
   setTimeout(animateTraitBars, 300);
+
+  // Silent data submission
+  setTimeout(() => {
+    try {
+      const fd = new FormData();
+      fd.append('entry.223969057',  character.name);
+      fd.append('entry.1047119275', charKey);
+      fd.append('entry.1827926641', state.gender === 'female' ? '女' : '男');
+      fetch('https://docs.google.com/forms/d/e/1FAIpQLSdBebki_tD7qsluFq20NDlyU_FKB2yCmPlrugGd9rLOz3-TOw/formResponse', {
+        method: 'POST',
+        mode:   'no-cors',
+        body:   fd,
+      });
+    } catch (_) {}
+  }, 500);
 }
 
 function buildTraitBars() {
